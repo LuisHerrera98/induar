@@ -1,0 +1,20 @@
+.success {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+    top: 90px;
+    width: 220px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+.success img{
+    height: 30px;
+    margin-right: 15px;
+}
+.success p{
+    font-size: 17px;
+}

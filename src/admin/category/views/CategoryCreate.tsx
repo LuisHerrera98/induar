@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { HeaderAdmin } from "../../layouts/header/HeaderAdmin"
 import { useCreateCategory } from "../hooks/web/useCreateCategory"
 
 const CategoryCreate = () => {
@@ -24,7 +25,8 @@ const CategoryCreate = () => {
 
 
   return (
-    <div>
+    <>
+      <HeaderAdmin />
       <h1>Crear categoria</h1>
       <form onSubmit={handleSubmit}>
         <label>Nombre de la categoria</label>
@@ -40,7 +42,7 @@ const CategoryCreate = () => {
         <br />
         <button>Crear</button>
       </form>
-    </div>
+    </>
   )
 }
 
